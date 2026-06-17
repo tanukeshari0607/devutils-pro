@@ -6,14 +6,13 @@ export const metadata: Metadata = {
   description:
     "Learn what JSON (JavaScript Object Notation) is, how it works, its syntax rules, common use cases, and why it became the dominant data interchange format on the web.",
   keywords: ["json", "what is json", "json tutorial", "json format", "json syntax"],
-  alternates: { canonical: "https://devutilspro.com/blog/what-is-json" },
+  alternates: { canonical: "https://devutilshub.vercel.app/blog/what-is-json" },
   openGraph: {
     title: "What is JSON? A Complete Guide for Developers",
     description:
       "Learn what JSON is, how it works, its syntax, and why it's the web's dominant data format.",
-    url: "https://devutilspro.com/blog/what-is-json",
+    url: "https://devutilshub.vercel.app/blog/what-is-json",
     type: "article",
-    images: [{ url: "https://devutilspro.com/og-image.png", width: 1200, height: 630 }],
   },
 };
 
@@ -23,12 +22,12 @@ const jsonLd = {
   headline: "What is JSON? A Complete Guide for Developers",
   description:
     "Learn what JSON is, how it works, its syntax rules, common use cases, and why it became the dominant data interchange format on the web.",
-  url: "https://devutilspro.com/blog/what-is-json",
+  url: "https://devutilshub.vercel.app/blog/what-is-json",
   author: { "@type": "Organization", name: "DevUtils Pro" },
   publisher: {
     "@type": "Organization",
     name: "DevUtils Pro",
-    url: "https://devutilspro.com",
+    url: "https://devutilshub.vercel.app",
   },
 };
 

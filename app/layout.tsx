@@ -7,7 +7,7 @@ import { Footer } from "@/components/layout/Footer";
 import { ToastContainer } from "@/components/ToastContainer";
 import { KeyboardShortcutsModal } from "@/components/KeyboardShortcutsModal";
 
-const BASE_URL = "https://devutilspro.com";
+const BASE_URL = "https://devutilshub.vercel.app";
 
 // Self-hosted via next/font: removes the render-blocking Google Fonts CSS
 // request that previously delayed first paint on every cold page load.

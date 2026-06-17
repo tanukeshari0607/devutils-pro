@@ -6,11 +6,11 @@ import { ContactForm } from "@/components/contact/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us",
   description: "Get in touch with the DevUtils Pro team — report bugs, suggest tools, or ask questions.",
-  alternates: { canonical: "https://devutilspro.com/contact" },
+  alternates: { canonical: "https://devutilshub.vercel.app/contact" },
   openGraph: {
     title: "Contact DevUtils Pro",
     description: "Get in touch with the DevUtils Pro team.",
-    url: "https://devutilspro.com/contact",
+    url: "https://devutilshub.vercel.app/contact",
   },
 };
 
@@ -18,7 +18,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   name: "Contact DevUtils Pro",
-  url: "https://devutilspro.com/contact",
+  url: "https://devutilshub.vercel.app/contact",
   description: "Contact page for DevUtils Pro developer tools.",
 };
 
@@ -41,8 +41,8 @@ export default function ContactPage() {
         We&apos;d love to hear from you. Pick the most relevant option below, or email us directly.
       </p>
       <div className="flex flex-wrap items-center gap-4 mb-8 text-sm">
-        <a href="mailto:contact@devutilspro.com" className="flex items-center gap-1.5 text-indigo-400 hover:underline font-code">
-          <Mail size={15} /> contact@devutilspro.com
+        <a href="mailto:contact@devutilshub.vercel.app" className="flex items-center gap-1.5 text-indigo-400 hover:underline font-code">
+          <Mail size={15} /> contact@devutilshub.vercel.app
         </a>
         <span className="text-[var(--text-muted)]">
           Response time: <strong className="text-[var(--text-secondary)]">1–2 business days</strong>

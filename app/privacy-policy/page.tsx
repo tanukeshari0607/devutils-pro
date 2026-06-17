@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "DevUtils Pro privacy policy — how we handle data, cookies, Google Analytics, AdSense, and your privacy rights.",
-  alternates: { canonical: "https://devutilspro.com/privacy-policy" },
+  alternates: { canonical: "https://devutilshub.vercel.app/privacy-policy" },
   robots: { index: true, follow: true },
 };
 
@@ -12,7 +12,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   name: "Privacy Policy – DevUtils Pro",
-  url: "https://devutilspro.com/privacy-policy",
+  url: "https://devutilshub.vercel.app/privacy-policy",
 };
 
 export default function PrivacyPolicyPage() {
@@ -36,7 +36,7 @@ export default function PrivacyPolicyPage() {
         <Section title="1. Overview">
           <p>
             DevUtils Pro (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) operates the website at{" "}
-            <strong className="text-[var(--text-primary)]">devutilspro.com</strong>. This policy
+            <strong className="text-[var(--text-primary)]">devutilshub.vercel.app</strong>. This policy
             explains what information is collected when you visit, how it is used, and the
             choices available to you.
           </p>
@@ -133,7 +133,7 @@ export default function PrivacyPolicyPage() {
             Our site may link to external tools, documentation, or resources we don&apos;t control.
             We are not responsible for the content, accuracy, or privacy practices of any
             third-party website. We encourage you to review the privacy policy of any site you
-            visit after leaving devutilspro.com.
+            visit after leaving devutilshub.vercel.app.
           </p>
         </Section>
 
@@ -168,8 +168,8 @@ export default function PrivacyPolicyPage() {
           <p>
             Questions about this Privacy Policy or how we (or our advertising/analytics
             partners) handle data? Email us at{" "}
-            <a href="mailto:contact@devutilspro.com" className="text-indigo-400 hover:underline font-code">
-              contact@devutilspro.com
+            <a href="mailto:contact@devutilshub.vercel.app" className="text-indigo-400 hover:underline font-code">
+              contact@devutilshub.vercel.app
             </a>{" "}
             or use our <Link href="/contact" className="text-indigo-400 hover:underline">contact form</Link>.
           </p>

@@ -91,11 +91,11 @@ export function HomepageClient() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "DevUtils Pro",
-    url: "https://devutilspro.com",
+    url: "https://devutilshub.vercel.app",
     description: "Free online developer utilities",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://devutilspro.com/?q={search_term_string}",
+      target: "https://devutilshub.vercel.app/?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
@@ -104,14 +104,14 @@ export function HomepageClient() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "DevUtils Pro",
-    url: "https://devutilspro.com",
-    logo: "https://devutilspro.com/opengraph-image",
+    url: "https://devutilshub.vercel.app",
+    logo: "https://devutilshub.vercel.app/opengraph-image",
     description:
       "DevUtils Pro builds free, browser-based developer tools. All processing happens client-side — no data is ever sent to a server.",
-    email: "contact@devutilspro.com",
+    email: "contact@devutilshub.vercel.app",
     contactPoint: {
       "@type": "ContactPoint",
-      email: "contact@devutilspro.com",
+      email: "contact@devutilshub.vercel.app",
       contactType: "customer support",
     },
   };

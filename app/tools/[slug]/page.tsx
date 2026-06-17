@@ -37,7 +37,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tool = getToolBySlug(params.slug);
   if (!tool) return { title: "Tool Not Found" };
-  const url = `https://devutilspro.com/tools/${tool.slug}`;
+  const url = `https://devutilshub.vercel.app/tools/${tool.slug}`;
   return {
     title: `${tool.name} – Free Online Tool`,
     description: tool.description,

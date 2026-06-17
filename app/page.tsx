@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "DevUtils Pro – Free Online Developer Tools",
     description: "15+ free online developer utilities in one place.",
-    url: "https://devutilspro.com",
+    url: "https://devutilshub.vercel.app",
   },
-  alternates: { canonical: "https://devutilspro.com" },
+  alternates: { canonical: "https://devutilshub.vercel.app" },
 };
 
 export default function HomePage() {

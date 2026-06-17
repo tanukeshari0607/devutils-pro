@@ -25,9 +25,9 @@ const POPULAR_TOOL_LINKS = [
 // in this version; swap in actual brand icons (e.g. simple-icons) when real
 // social profiles exist.
 const SOCIAL_LINKS = [
-  { href: "mailto:contact@devutilspro.com", label: "Email", icon: Mail },
+  { href: "mailto:contact@devutilshub.vercel.app", label: "Email", icon: Mail },
   { href: "/blog/what-is-json", label: "Blog", icon: Rss },
-  { href: "https://devutilspro.com", label: "Website", icon: Globe },
+  { href: "https://devutilshub.vercel.app", label: "Website", icon: Globe },
 ];
 
 // Footer doubles as the site's internal-linking hub: every tool/category/

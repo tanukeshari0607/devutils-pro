@@ -6,13 +6,12 @@ export const metadata: Metadata = {
   description:
     "Learn what Base64 encoding is, how the algorithm works, when to use it, and common use cases like data URIs, email attachments, and API payloads.",
   keywords: ["base64", "what is base64", "base64 encoding", "base64 tutorial", "encode decode"],
-  alternates: { canonical: "https://devutilspro.com/blog/what-is-base64" },
+  alternates: { canonical: "https://devutilshub.vercel.app/blog/what-is-base64" },
   openGraph: {
     title: "What is Base64 Encoding? How It Works Explained",
     description: "Learn what Base64 encoding is, how it works, and when to use it.",
-    url: "https://devutilspro.com/blog/what-is-base64",
+    url: "https://devutilshub.vercel.app/blog/what-is-base64",
     type: "article",
-    images: [{ url: "https://devutilspro.com/og-image.png", width: 1200, height: 630 }],
   },
 };
 
@@ -22,12 +21,12 @@ const jsonLd = {
   headline: "What is Base64 Encoding? How It Works Explained",
   description:
     "Learn what Base64 encoding is, how the algorithm works, when to use it, and common use cases.",
-  url: "https://devutilspro.com/blog/what-is-base64",
+  url: "https://devutilshub.vercel.app/blog/what-is-base64",
   author: { "@type": "Organization", name: "DevUtils Pro" },
   publisher: {
     "@type": "Organization",
     name: "DevUtils Pro",
-    url: "https://devutilspro.com",
+    url: "https://devutilshub.vercel.app",
   },
 };
 

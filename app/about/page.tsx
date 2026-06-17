@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "About DevUtils Pro",
   description:
     "DevUtils Pro is a free, fast, browser-based collection of developer tools. All processing happens in your browser — no data is ever sent to a server.",
-  alternates: { canonical: "https://devutilspro.com/about" },
+  alternates: { canonical: "https://devutilshub.vercel.app/about" },
   openGraph: {
     title: "About DevUtils Pro",
     description: "Free, fast, browser-based developer tools. Privacy first, no login required.",
-    url: "https://devutilspro.com/about",
+    url: "https://devutilshub.vercel.app/about",
   },
 };
 
@@ -18,9 +18,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
   name: "About DevUtils Pro",
-  url: "https://devutilspro.com/about",
+  url: "https://devutilshub.vercel.app/about",
   description: "DevUtils Pro is a free, browser-based collection of developer tools.",
-  publisher: { "@type": "Organization", name: "DevUtils Pro", url: "https://devutilspro.com" },
+  publisher: { "@type": "Organization", name: "DevUtils Pro", url: "https://devutilshub.vercel.app" },
 };
 
 export default function AboutPage() {
@@ -124,8 +124,8 @@ export default function AboutPage() {
         </p>
         <p className="flex items-center gap-2 mt-3 text-[var(--text-secondary)]">
           <Mail size={15} className="text-indigo-400" />
-          <a href="mailto:contact@devutilspro.com" className="text-indigo-400 hover:underline font-code text-sm">
-            contact@devutilspro.com
+          <a href="mailto:contact@devutilshub.vercel.app" className="text-indigo-400 hover:underline font-code text-sm">
+            contact@devutilshub.vercel.app
           </a>
         </p>
         <p className="text-sm text-[var(--text-muted)] mt-2">

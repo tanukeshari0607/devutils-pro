@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [],
       },
     ],
-    sitemap: "https://devutilspro.com/sitemap.xml",
-    host: "https://devutilspro.com",
+    sitemap: "https://devutilshub.vercel.app/sitemap.xml",
+    host: "https://devutilshub.vercel.app",
   };
 }

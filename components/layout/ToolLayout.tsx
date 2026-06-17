@@ -10,7 +10,7 @@ interface ToolLayoutProps {
   children: React.ReactNode;
 }
 
-const BASE_URL = "https://devutilspro.com";
+const BASE_URL = "https://devutilshub.vercel.app";
 
 export function ToolLayout({ tool, children }: ToolLayoutProps) {
   const jsonLd = {

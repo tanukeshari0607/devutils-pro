@@ -4,14 +4,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "DevUtils Pro terms of service — the rules and conditions for using our free developer tools.",
-  alternates: { canonical: "https://devutilspro.com/terms" },
+  alternates: { canonical: "https://devutilshub.vercel.app/terms" },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   name: "Terms of Service – DevUtils Pro",
-  url: "https://devutilspro.com/terms",
+  url: "https://devutilshub.vercel.app/terms",
 };
 
 export default function TermsPage() {
@@ -34,7 +34,7 @@ export default function TermsPage() {
       <div className="space-y-8 text-[var(--text-secondary)] leading-relaxed">
         <Section title="1. Acceptance of Terms">
           <p>
-            By accessing or using DevUtils Pro at <strong className="text-[var(--text-primary)]">devutilspro.com</strong>
+            By accessing or using DevUtils Pro at <strong className="text-[var(--text-primary)]">devutilshub.vercel.app</strong>
             {" "}(the &ldquo;Service&rdquo;), you agree to be bound by these Terms of Service. If you do
             not agree, please do not use the Service.
           </p>
@@ -111,8 +111,8 @@ export default function TermsPage() {
         <Section title="8. Contact">
           <p>
             Questions about these Terms? Email{" "}
-            <a href="mailto:contact@devutilspro.com" className="text-indigo-400 hover:underline font-code">
-              contact@devutilspro.com
+            <a href="mailto:contact@devutilshub.vercel.app" className="text-indigo-400 hover:underline font-code">
+              contact@devutilshub.vercel.app
             </a>{" "}
             or use our <Link href="/contact" className="text-indigo-400 hover:underline">contact form</Link>.
           </p>
