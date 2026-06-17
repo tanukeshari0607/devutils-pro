@@ -1,0 +1,16 @@
+
+> devutils-pro@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 5.2s (671 modules)
+ ✓ Compiled in 441ms (312 modules)
+ GET / 200 in 45ms
+ ○ Compiling /tools/[slug] ...
+ ✓ Compiled /tools/[slug] in 4.1s (1769 modules)
+ GET /tools/json-formatter 200 in 4992ms
