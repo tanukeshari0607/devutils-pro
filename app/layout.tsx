@@ -6,6 +6,7 @@ import { TopNav } from "@/components/layout/TopNav";
 import { Footer } from "@/components/layout/Footer";
 import { ToastContainer } from "@/components/ToastContainer";
 import { KeyboardShortcutsModal } from "@/components/KeyboardShortcutsModal";
+import { Analytics } from "@vercel/analytics/next";
 
 const BASE_URL = "https://devutilshub.vercel.app";
 
@@ -89,6 +90,7 @@ export default function RootLayout({
           <ToastContainer />
           <KeyboardShortcutsModal />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
