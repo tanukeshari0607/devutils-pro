@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Mail, Rss, Globe, Zap } from "lucide-react";
+import { Mail, Rss, Globe } from "lucide-react";
 import { CATEGORIES } from "@/lib/tools";
+import { Logo } from "./Logo";
 
 const COMPANY_LINKS = [
   { href: "/about", label: "About" },
@@ -40,9 +41,7 @@ export function Footer() {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
           <div className="col-span-2 sm:col-span-3 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-3">
-              <div className="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center">
-                <Zap size={15} className="text-white" />
-              </div>
+              <Logo />
               <span className="font-semibold text-[var(--text-primary)]">
                 DevUtils <span className="text-indigo-400">Pro</span>
               </span>

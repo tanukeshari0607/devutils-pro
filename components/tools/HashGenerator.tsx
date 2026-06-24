@@ -133,7 +133,7 @@ export function HashGenerator() {
               value={text}
               onChange={(e) => handleTextChange(e.target.value)}
               placeholder="Enter text to hash…"
-              className="textarea-code h-28 resize-y"
+              className="textarea-code h-40 resize-y"
               spellCheck={false}
             />
           </div>

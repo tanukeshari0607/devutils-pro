@@ -144,7 +144,7 @@ export function Base64Encoder() {
               value={textInput}
               onChange={(e) => handleTextChange(e.target.value)}
               placeholder={direction === "encode" ? "Enter text to encode…" : "Enter Base64 string to decode…"}
-              className="textarea-code h-36 resize-y"
+              className="textarea-code h-48 resize-y"
               spellCheck={false}
             />
           </div>
@@ -166,7 +166,7 @@ export function Base64Encoder() {
               <textarea
                 readOnly
                 value={textOutput}
-                className="textarea-code h-36 resize-y opacity-90"
+                className="textarea-code h-48 resize-y opacity-90"
               />
               <div className="flex gap-4 text-xs text-[var(--text-muted)] font-code">
                 <span>Input: {formatBytes(new TextEncoder().encode(textInput).length)}</span>
@@ -220,7 +220,7 @@ export function Base64Encoder() {
               <textarea
                 readOnly
                 value={fileOutput}
-                className="textarea-code h-48 resize-y text-xs opacity-90"
+                className="textarea-code h-60 resize-y text-xs opacity-90"
               />
               <div className="flex gap-4 text-xs text-[var(--text-muted)] font-code">
                 <span>Original: {formatBytes(fileSize)}</span>

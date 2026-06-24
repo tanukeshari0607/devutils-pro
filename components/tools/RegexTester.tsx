@@ -165,7 +165,7 @@ export function RegexTester() {
                 value={testStr}
                 onChange={(e) => setTestStr(e.target.value)}
                 placeholder="Enter test string here…"
-                className="relative w-full h-36 bg-transparent font-code text-sm text-slate-200 px-4 py-3 outline-none resize-y placeholder:text-slate-600 caret-white"
+                className="relative w-full h-56 bg-transparent font-code text-sm text-slate-200 px-4 py-3 outline-none resize-y placeholder:text-slate-600 caret-white"
                 spellCheck={false}
                 style={{ caretColor: "white" }}
               />

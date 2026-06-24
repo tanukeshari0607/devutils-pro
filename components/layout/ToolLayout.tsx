@@ -1,5 +1,5 @@
 import type { Tool } from "@/lib/tools";
-import { AdSlot } from "@/components/ads/AdSlot";
+import { AdSlot, ADS_ENABLED } from "@/components/ads/AdSlot";
 import { UsageTracker } from "@/components/tools/UsageTracker";
 import { ShareButton } from "@/components/tools/ShareButton";
 import { FavoriteButton } from "@/components/tools/FavoriteButton";
@@ -97,10 +97,14 @@ export function ToolLayout({ tool, children }: ToolLayoutProps) {
         {children}
       </div>
 
-      {/* Mid-content ad — placed below the tool, never above or beside it */}
-      <div className="mt-6 flex justify-center">
-        <AdSlot id="ad-mid" width={336} height={280} />
-      </div>
+      {/* Mid-content ad — placed below the tool, never above or beside it.
+          Disabled site-wide via ADS_ENABLED until the traffic-building phase
+          ends; the wrapper itself is skipped so no dead margin is left behind. */}
+      {ADS_ENABLED && (
+        <div className="mt-6 flex justify-center">
+          <AdSlot id="ad-mid" width={336} height={280} />
+        </div>
+      )}
 
       <RelatedTools slug={tool.slug} />
 

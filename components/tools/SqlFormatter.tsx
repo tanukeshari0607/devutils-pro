@@ -96,7 +96,7 @@ export function SqlFormatter() {
           value={input}
           onChange={(e) => handleInput(e.target.value)}
           placeholder={"SELECT id, name FROM users WHERE active = 1 ORDER BY name;"}
-          className="textarea-code h-40 resize-y"
+          className="textarea-code h-56 resize-y"
           spellCheck={false}
         />
       </div>

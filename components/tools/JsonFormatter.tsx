@@ -208,7 +208,7 @@ export function JsonFormatter() {
   }, [format, minify, copy]);
 
   return (
-    <div className="flex flex-col h-[78vh] min-h-[560px]">
+    <div className="flex flex-col h-[88vh] min-h-[680px]">
       {/* Toolbar */}
       <div className="flex flex-wrap items-center gap-2 p-3 border-b border-[var(--border)] shrink-0">
         <button onClick={format} className="btn-primary py-1.5">

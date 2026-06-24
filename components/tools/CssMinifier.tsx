@@ -90,7 +90,7 @@ export function CssMinifier() {
           value={input}
           onChange={(e) => handleInput(e.target.value)}
           placeholder={".container {\n  display: flex;\n  padding: 1rem;\n}"}
-          className="textarea-code h-44 resize-y"
+          className="textarea-code h-64 resize-y"
           spellCheck={false}
         />
       </div>
@@ -110,7 +110,7 @@ export function CssMinifier() {
               </button>
             </div>
           </div>
-          <textarea readOnly value={output} className="textarea-code h-44 resize-y opacity-90" />
+          <textarea readOnly value={output} className="textarea-code h-64 resize-y opacity-90" />
         </div>
       )}
     </div>

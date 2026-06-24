@@ -137,7 +137,7 @@ export function DiffChecker() {
             value={original}
             onChange={(e) => setOriginal(e.target.value)}
             placeholder="Paste original text here…"
-            className="textarea-code h-40 resize-y"
+            className="textarea-code h-60 resize-y"
             spellCheck={false}
           />
         </div>
@@ -147,7 +147,7 @@ export function DiffChecker() {
             value={modified}
             onChange={(e) => setModified(e.target.value)}
             placeholder="Paste modified text here…"
-            className="textarea-code h-40 resize-y"
+            className="textarea-code h-60 resize-y"
             spellCheck={false}
           />
         </div>

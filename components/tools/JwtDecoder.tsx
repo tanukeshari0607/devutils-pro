@@ -94,7 +94,7 @@ export function JwtDecoder() {
           value={token}
           onChange={(e) => setToken(e.target.value)}
           placeholder="Paste a JWT token here (eyJhbGc...)"
-          className="textarea-code h-28 resize-y"
+          className="textarea-code h-36 resize-y"
           spellCheck={false}
         />
       </div>

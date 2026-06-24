@@ -160,7 +160,7 @@ export function UrlEncoder() {
               ? "https://example.com/search?q=hello world&lang=en"
               : "q=hello world&category=books & more"
           }
-          className="textarea-code h-32 resize-y"
+          className="textarea-code h-44 resize-y"
           spellCheck={false}
         />
       </div>
@@ -184,7 +184,7 @@ export function UrlEncoder() {
               </button>
             </div>
           </div>
-          <textarea readOnly value={output} className="textarea-code h-32 resize-y opacity-90" />
+          <textarea readOnly value={output} className="textarea-code h-44 resize-y opacity-90" />
         </div>
       )}
 

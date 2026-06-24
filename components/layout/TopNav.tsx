@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useTheme } from "next-themes";
-import { Menu, Search, Sun, Moon, Zap, ChevronDown } from "lucide-react";
+import { Menu, Search, Sun, Moon, ChevronDown } from "lucide-react";
 import { clsx } from "clsx";
 import {
   Code2,
@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { TOOLS, CATEGORIES, type ToolCategory } from "@/lib/tools";
 import { MobileNav } from "./MobileNav";
+import { Logo } from "./Logo";
 
 export const CATEGORY_ICONS: Record<ToolCategory, React.ReactNode> = {
   Formatters: <Code2 size={14} />,
@@ -115,9 +116,7 @@ export function TopNav() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0 mr-2">
-            <div className="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center">
-              <Zap size={15} className="text-white" />
-            </div>
+            <Logo />
             <span className="font-semibold text-[var(--text-primary)] tracking-tight hidden sm:inline">
               DevUtils <span className="text-indigo-400">Pro</span>
             </span>

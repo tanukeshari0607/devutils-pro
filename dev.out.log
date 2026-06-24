@@ -6,11 +6,40 @@
   - Local:        http://localhost:3000
 
  ✓ Starting...
- ✓ Ready in 2.8s
+ ✓ Ready in 2.5s
  ○ Compiling / ...
- ✓ Compiled / in 5.2s (671 modules)
- ✓ Compiled in 441ms (312 modules)
- GET / 200 in 45ms
+ ✓ Compiled / in 3.5s (678 modules)
+ GET / 200 in 587ms
+ ✓ Compiled in 294ms (314 modules)
+ GET / 200 in 37ms
+ GET / 200 in 89ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 824ms (378 modules)
+ GET /favicon.ico 200 in 990ms
  ○ Compiling /tools/[slug] ...
- ✓ Compiled /tools/[slug] in 4.1s (1769 modules)
- GET /tools/json-formatter 200 in 4992ms
+ ✓ Compiled /tools/[slug] in 10.6s (1763 modules)
+ GET / 200 in 258ms
+ ○ Compiling /blog/what-is-json ...
+ ✓ Compiled /blog/what-is-json in 1127ms (1753 modules)
+ GET /tools/uuid-generator 200 in 1207ms
+ GET / 200 in 146ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1891ms (947 modules)
+ GET /favicon.ico 200 in 2174ms
+ GET /tools/json-formatter 200 in 306ms
+ GET / 200 in 80ms
+ GET /favicon.ico 200 in 39ms
+ ✓ Compiled in 963ms (1767 modules)
+ ✓ Compiled in 411ms (1767 modules)
+ ✓ Compiled in 389ms (1767 modules)
+ ✓ Compiled in 1134ms (1767 modules)
+ ✓ Compiled in 492ms (1767 modules)
+ ✓ Compiled in 343ms (1767 modules)
+ ✓ Compiled in 384ms (1767 modules)
+ ✓ Compiled in 546ms (1767 modules)
+ ✓ Compiled in 410ms (1767 modules)
+ ✓ Compiled in 361ms (1767 modules)
+ ✓ Compiled in 365ms (1767 modules)
+ ✓ Compiled in 384ms (1767 modules)
+ ✓ Compiled in 462ms (1767 modules)
+ ✓ Compiled in 283ms (1767 modules)

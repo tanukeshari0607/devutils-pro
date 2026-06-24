@@ -4,9 +4,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { clsx } from "clsx";
-import { ChevronDown, X, Zap } from "lucide-react";
+import { ChevronDown, X } from "lucide-react";
 import { TOOLS, CATEGORIES } from "@/lib/tools";
 import { CATEGORY_ICONS } from "./TopNav";
+import { Logo } from "./Logo";
 
 export function MobileNav({ open, onClose }: { open: boolean; onClose: () => void }) {
   const pathname = usePathname();
@@ -23,9 +24,7 @@ export function MobileNav({ open, onClose }: { open: boolean; onClose: () => voi
       <aside className="fixed inset-y-0 left-0 z-50 w-80 max-w-[85vw] bg-[var(--bg-main)] border-r border-[var(--border)] overflow-y-auto md:hidden">
         <div className="flex items-center justify-between px-4 py-3.5 border-b border-[var(--border)] sticky top-0 bg-[var(--bg-main)]">
           <Link href="/" onClick={onClose} className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center">
-              <Zap size={15} className="text-white" />
-            </div>
+            <Logo />
             <span className="font-semibold text-[var(--text-primary)]">
               DevUtils <span className="text-indigo-400">Pro</span>
             </span>

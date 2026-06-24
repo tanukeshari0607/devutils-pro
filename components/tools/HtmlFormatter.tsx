@@ -114,7 +114,7 @@ export function HtmlFormatter() {
           value={input}
           onChange={(e) => handleInput(e.target.value)}
           placeholder="<div class='container'><p>Hello world</p></div>"
-          className="textarea-code h-44 resize-y"
+          className="textarea-code h-64 resize-y"
           spellCheck={false}
         />
       </div>
@@ -135,7 +135,7 @@ export function HtmlFormatter() {
               </button>
             </div>
           </div>
-          <textarea readOnly value={output} className="textarea-code h-44 resize-y opacity-90" />
+          <textarea readOnly value={output} className="textarea-code h-64 resize-y opacity-90" />
         </div>
       )}
     </div>
